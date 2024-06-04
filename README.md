@@ -1,4 +1,4 @@
-# GPT-35 Turbo Instruct 聊天机器人
+# GPT-35 Turbo 聊天机器人
 
 这个项目是一个使用 OpenAI 的 GPT-35 Turbo 模型构建的聊天机器人，具有网页抓取和天气查询的附加功能。聊天机器人使用 SQLite 来存储聊天记录，并使用 Azure OpenAI 进行与 GPT-35 Turbo 模型的交互。
 
