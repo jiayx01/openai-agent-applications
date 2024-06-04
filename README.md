@@ -22,7 +22,7 @@
 1. **克隆仓库**：
 
     ```bash
-    git clone https://github.com/yourusername/gpt-35-turbo-instruct-chatbot.git
+    git clone https://github.com/yourusername/gpt-35-turbo-chatbot.git
     cd gpt-35-turbo-instruct-chatbot
     ```
 
