@@ -23,7 +23,7 @@
 
     ```bash
     git clone https://github.com/jiayx01/openai-agent-applications.git
-    cd gpt-35-turbo-instruct-chatbot
+    cd gpt-turbo-chatbot
     ```
 
 2. **安装依赖**：
