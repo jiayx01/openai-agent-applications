@@ -60,3 +60,27 @@
 
 ```bash
 python script.py "你好，北京的天气怎么样？"
+```
+
+## 网页抓取
+脚本包含一个用于网页抓取的工具。当提供一个 URL 时，聊天机器人可以获取并总结页面内容。
+
+## 天气查询
+聊天机器人可以根据城市名称获取天气信息。它使用城市名称获取 adcode，然后使用该 adcode 从高德 API 获取当前天气。
+
+## 功能和工具
+网页抓取
+web_crawl_tool：使用 trafilatura 获取并提取给定 URL 的内容的函数。
+天气查询
+get_city_code：获取给定城市名称的 adcode。
+get_weather：使用 adcode 获取天气信息。
+数据库模式
+表
+chat：存储聊天会话。
+id：主键。
+name：聊天会话的名称。
+message：存储聊天会话中的消息。
+id：主键。
+content：消息内容。
+role：消息发送者的角色（用户或助手）。
+chat_id：外键，关联到聊天表。
